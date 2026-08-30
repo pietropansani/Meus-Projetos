@@ -34,7 +34,7 @@ def calculadora():
 
         # Lógica de continuar corrigida
         continuar = input("\nDeseja fazer outro calculo (S/N): ").strip().upper()
-        if continuar != "S":
+        if continuar == "S":
             print("Vamos Fazer outro calculo entao!")
         else:
             print("Encerrando a calculadora. Até mais!")
